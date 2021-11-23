@@ -1,7 +1,8 @@
-hide mysql in docker-compose if not use
-copy config.toml.example to config.toml
+#### Run code
+- hide mysql in docker-compose if not use
+- copy config.toml.example to config.toml
 
-run:
+##### run:
 - docker-compose up -d || docker compose up -d
-logs:
+##### logs:
 - docker-compose logs -f || docker compose logs -f
